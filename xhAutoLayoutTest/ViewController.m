@@ -90,7 +90,7 @@
     [UIView animateWithDuration:1.33
                          animations:^{
                              _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
-                             _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-30));
+                             _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
                              //[self.view layoutIfNeeded];
                          } completion:^(BOOL finished)
                             {
@@ -123,7 +123,7 @@
     [UIView animateWithDuration:1.33
                      animations:^{
                          _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
-                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-30));
+                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
                          //[self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
      {
@@ -156,7 +156,7 @@
     [UIView animateWithDuration:1.33
                      animations:^{
                          _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
-                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-30));
+                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
                          _uiv_bottomLeft.alpha = 1.0;
                          //[self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
@@ -196,7 +196,7 @@
     [UIView animateWithDuration:1.33
                      animations:^{
                          _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
-                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-30));
+                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
                          [self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
      {
@@ -236,7 +236,7 @@
     [UIView animateWithDuration:1.33
                      animations:^{
                          _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
-                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-30));
+                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
                          [self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
      {
