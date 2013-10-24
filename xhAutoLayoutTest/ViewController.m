@@ -70,7 +70,7 @@
         [UIView animateWithDuration:1.33
                          animations:^{
                              _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(0));
-                             _uiv_bigContainer.frame = CGRectMake(0.0f, 0.0f, 2068, 1556);
+                             _uiv_bigContainer.frame = CGRectMake(0.0f, -197.0f, 2068, 1950);
                              //[self.view layoutIfNeeded];
                          } completion:^(BOOL finished)
                         {
@@ -89,7 +89,7 @@
     
     [UIView animateWithDuration:1.33
                          animations:^{
-                             _uiv_bigContainer.frame = CGRectMake(-522.0f, -394.0f, 2068, 1556);
+                             _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
                              _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-30));
                              //[self.view layoutIfNeeded];
                          } completion:^(BOOL finished)
@@ -109,7 +109,7 @@
     [UIView animateWithDuration:1.33
                      animations:^{
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(0));
-                         _uiv_bigContainer.frame = CGRectMake(0.0f, -788.0f, 2068, 1556);
+                         _uiv_bigContainer.frame = CGRectMake(0.0f, -985.0f, 2068, 1950);
                          //[self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
      {
@@ -122,7 +122,7 @@
 
     [UIView animateWithDuration:1.33
                      animations:^{
-                         _uiv_bigContainer.frame = CGRectMake(-522.0f, -394.0f, 2068, 1556);
+                         _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-30));
                          //[self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
@@ -141,7 +141,7 @@
     [UIView animateWithDuration:1.33
                      animations:^{
                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(0));
-                         _uiv_bigContainer.frame = CGRectMake(-844.0f, -788.0f, 2068, 1556);
+                         _uiv_bigContainer.frame = CGRectMake(-844.0f, -985.0f, 2068, 1950);
                          _uiv_bottomLeft.alpha = 0.0;
                          //[self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
@@ -155,7 +155,7 @@
     
     [UIView animateWithDuration:1.33
                      animations:^{
-                         _uiv_bigContainer.frame = CGRectMake(-522.0f, -394.0f, 2068, 1556);
+                         _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-30));
                          _uiv_bottomLeft.alpha = 1.0;
                          //[self.view layoutIfNeeded];
@@ -173,13 +173,12 @@
     [self.view removeConstraint:self.constraint_X];
     [self.view removeConstraint:self.constraint_Y];
     
-    _topRight1_H_Constant.constant = 768;
-    //_bigContainer_H.constant = 1753;
+
     
     [UIView animateWithDuration:1.33
                      animations:^{
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(0));
-                         _uiv_bigContainer.frame = CGRectMake(-1044.0f, 0.0f, 2068, 1556);
+                         _uiv_bigContainer.frame = CGRectMake(-1044.0f, 0.0f, 2068, 1950);
                          [self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
      {
@@ -191,11 +190,12 @@
 
 -(IBAction)reverseBrownPart:(id)sender{
     
-    _topRight1_H_Constant.constant = 571;
+
+
     
     [UIView animateWithDuration:1.33
                      animations:^{
-                         _uiv_bigContainer.frame = CGRectMake(-522.0f, -394.0f, 2068, 1556);
+                         _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-30));
                          [self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
@@ -218,7 +218,7 @@
     [UIView animateWithDuration:1.33
                      animations:^{
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(0));
-                         _uiv_bigContainer.frame = CGRectMake(-1044.0f, -591.0f, 2068, 1556);
+                         _uiv_bigContainer.frame = CGRectMake(-1044.0f, -197.0f, 2068, 1950);
                          [self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
      {
@@ -235,7 +235,7 @@
     
     [UIView animateWithDuration:1.33
                      animations:^{
-                         _uiv_bigContainer.frame = CGRectMake(-522.0f, -394.0f, 2068, 1556);
+                         _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-30));
                          [self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
