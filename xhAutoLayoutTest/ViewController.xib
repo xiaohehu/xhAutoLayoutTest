@@ -10,6 +10,8 @@
                 <outlet property="bigContainer_H" destination="WZt-mz-rYG" id="8aV-xX-k1m"/>
                 <outlet property="constraint_X" destination="QlB-F9-hfc" id="Lps-8O-GHk"/>
                 <outlet property="constraint_Y" destination="Ohm-qg-p30" id="O4o-lX-u8Q"/>
+                <outlet property="constraint_uiiv_residential_X" destination="8qA-TO-kZm" id="o5j-JL-9RQ"/>
+                <outlet property="constraint_uiiv_residential_Y" destination="ayX-7Z-BeQ" id="7r4-yW-m30"/>
                 <outlet property="topRight1_H_Constant" destination="AXu-dH-nmz" id="feR-mn-yAY"/>
                 <outlet property="topRight1_W_Constant" destination="PWJ-PP-Dy4" id="MII-Rp-23f"/>
                 <outlet property="topRight2_H_Constant" destination="00l-ID-lcM" id="hkc-L8-nQ9"/>
@@ -18,6 +20,8 @@
                 <outlet property="uib_topLeft" destination="2ZX-kk-Mrw" id="PXr-Ob-9SU"/>
                 <outlet property="uib_topRight1" destination="MW5-Wb-tFY" id="3BC-SU-h5h"/>
                 <outlet property="uib_topRight2" destination="iwt-HJ-ozO" id="VGu-fU-Uy5"/>
+                <outlet property="uiiv_residential" destination="e8t-ad-kix" id="LbA-ZC-V5J"/>
+                <outlet property="uiiv_retail" destination="KOU-MO-PJd" id="aWP-2p-8Mb"/>
                 <outlet property="uiv_bigContainer" destination="ZAv-wF-UcT" id="IJY-eq-TB7"/>
                 <outlet property="uiv_bottomLeft" destination="twJ-v8-E4u" id="p9O-Je-tpo"/>
                 <outlet property="uiv_bottomRight" destination="ZgW-XO-b3t" id="JOM-cZ-jIW"/>
@@ -71,7 +75,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="opt-a-_0009_10.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KOU-MO-PJd">
-                                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                    <rect key="frame" x="0.0" y="-591" width="1024" height="768"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="768" id="ahb-WZ-tOS"/>
@@ -108,12 +112,12 @@
                             <rect key="frame" x="1044" y="0.0" width="1024" height="571"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="opt-a-_0008_9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="e8t-ad-kix">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="295" verticalHuggingPriority="295" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" misplaced="YES" image="opt-a-_0008_9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="e8t-ad-kix">
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="768" id="xsg-kN-vLa"/>
-                                        <constraint firstAttribute="width" constant="1024" id="yv4-qr-h97"/>
+                                        <constraint firstAttribute="width" constant="1024" id="Axk-7T-Adv"/>
+                                        <constraint firstAttribute="height" constant="768" id="PhK-aP-Woj"/>
                                     </constraints>
                                 </imageView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MW5-Wb-tFY">
@@ -135,15 +139,13 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstItem="e8t-ad-kix" firstAttribute="leading" secondItem="BMW-nS-fXt" secondAttribute="leading" id="1HA-7G-NTn"/>
+                                <constraint firstAttribute="centerX" secondItem="e8t-ad-kix" secondAttribute="centerX" id="8qA-TO-kZm"/>
                                 <constraint firstAttribute="height" constant="571" id="AXu-dH-nmz"/>
-                                <constraint firstAttribute="bottom" secondItem="e8t-ad-kix" secondAttribute="bottom" id="FqE-7B-Lkk"/>
                                 <constraint firstAttribute="trailing" secondItem="MW5-Wb-tFY" secondAttribute="trailing" constant="750" id="HqR-tS-72z"/>
                                 <constraint firstItem="MW5-Wb-tFY" firstAttribute="leading" secondItem="BMW-nS-fXt" secondAttribute="leading" constant="20" id="MhN-8t-6zk"/>
                                 <constraint firstAttribute="width" constant="1024" id="PWJ-PP-Dy4"/>
                                 <constraint firstAttribute="bottom" secondItem="MW5-Wb-tFY" secondAttribute="bottom" constant="20" id="PaD-tJ-RL4"/>
-                                <constraint firstAttribute="trailing" secondItem="e8t-ad-kix" secondAttribute="trailing" id="Yp4-BP-mQy"/>
-                                <constraint firstItem="e8t-ad-kix" firstAttribute="top" secondItem="BMW-nS-fXt" secondAttribute="top" id="ehP-y7-uqo"/>
+                                <constraint firstAttribute="centerY" secondItem="e8t-ad-kix" secondAttribute="centerY" id="ayX-7Z-BeQ"/>
                             </constraints>
                         </view>
                         <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="twJ-v8-E4u">

@@ -23,6 +23,8 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *topRight1_W_Constant;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *topRight2_H_Constant;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *bigContainer_H;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraint_uiiv_residential_X;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraint_uiiv_residential_Y;
 
 @property (weak, nonatomic) IBOutlet UIView *uiv_topLeft;
 @property (weak, nonatomic) IBOutlet UIView *uiv_bottomLeft;
@@ -32,6 +34,11 @@
 
 @property (weak, nonatomic) NSLayoutConstraint *brownToTop;
 @property (weak, nonatomic) NSLayoutConstraint *greenToBtm;
+
+@property (weak, nonatomic) IBOutlet UIImageView *uiiv_retail;
+@property (weak, nonatomic) IBOutlet UIImageView *uiiv_residential;
+
+
 @end
 #define RADIANS_TO_DEGREES(radians) ((radians) * ( M_PI/180))
 @implementation ViewController
@@ -69,8 +76,15 @@
     [_uiv_bigContainer setBackgroundColor:[UIColor colorWithRed:255.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1.0]];
     [_uiv_bottomLeft setBackgroundColor:[UIColor colorWithRed:253.0/255.0 green:228.0/255.0 blue:110.0/255.0 alpha:1.0]];
     [_uiv_bottomRight setBackgroundColor:[UIColor colorWithRed:235.0/255.0 green:189.0/255.0 blue:7.0/255.0 alpha:1.0]];
+    
     _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
     
+    
+    [_uiv_topRight1 removeConstraint:_constraint_uiiv_residential_X];
+    [_uiv_topRight1 removeConstraint:_constraint_uiiv_residential_Y];
+    _uiiv_residential.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(23.5));
+    _uiiv_residential.frame = CGRectMake(-270.0f, 150.0f, 1024.0f, 768.0f);
+
 }
 
 -(void)addConstraintsToTopRightPart
@@ -248,13 +262,18 @@
     [self.view removeConstraint:self.constraint_X];
     [self.view removeConstraint:self.constraint_Y];
     
+    [_uiv_topRight1 removeConstraint:_constraint_uiiv_residential_X];
+    [_uiv_topRight1 removeConstraint:_constraint_uiiv_residential_Y];
+    
     _topRight1_H_Constant.constant = 768;
     //_bigContainer_H.constant = 1753;
     
     [UIView animateWithDuration:1.33
                      animations:^{
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(0));
+                         _uiiv_residential.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(0));
                          _uiv_bigContainer.frame = CGRectMake(-1044.0f, 0.0f, 2068, 1556);
+                         _uiiv_residential.frame = CGRectMake(0.0f, 0.0f, 1024.0f, 768.0f);
                          [self.view layoutIfNeeded];
                          
                          for (UIView *tmp in [_uiv_bigContainer subviews]) {
@@ -279,9 +298,13 @@
     
     [UIView animateWithDuration:1.33
                      animations:^{
+                         
                          _uiv_bigContainer.frame = CGRectMake(-522.0f, -394.0f, 2068, 1556);
-                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
+                         _uiiv_residential.frame = CGRectMake(-270.0f, 150.0f, 1024.0f, 768.0f);
                          [self.view layoutIfNeeded];
+                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
+                         _uiiv_residential.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(23.5));
+                        
                          
                          for (UIView *tmp in [_uiv_bigContainer subviews]) {
                              if (tmp.tag == 102) {
@@ -314,6 +337,8 @@
                          _uiv_bigContainer.frame = CGRectMake(-1044.0f, -591.0f, 2068, 1556);
                          [self.view layoutIfNeeded];
                          
+                         _uiiv_retail.frame = CGRectMake(0.0f, 0.0f, 1024.0f, 768.0f);
+                         
                          for (UIView *tmp in [_uiv_bigContainer subviews]) {
                              if (tmp.tag == 103) {
                                  
@@ -340,6 +365,8 @@
                          _uiv_bigContainer.frame = CGRectMake(-522.0f, -394.0f, 2068, 1556);
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-25));
                          [self.view layoutIfNeeded];
+                         
+                         _uiiv_retail.frame = CGRectMake(0.0f, -591.0f, 1024.0f, 768.0f);
                          
                          for (UIView *tmp in [_uiv_bigContainer subviews]) {
                              if (tmp.tag == 103) {
