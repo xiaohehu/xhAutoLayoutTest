@@ -49,6 +49,14 @@
 
 - (void)viewDidLoad
 {
+    _uiv_bigContainer.tag = 10;
+    _uiv_topLeft.tag = 101;
+    _uiv_topRight1.tag = 102;
+    _uiv_topRight2.tag = 103;
+    _uiv_bottomLeft.tag = 104;
+    _uiv_bottomRight.tag = 105;
+
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 
@@ -58,10 +66,11 @@
     
     _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
     
-    [self.view removeConstraint:_constraint_uiiv_residential_X];
-    [self.view removeConstraint:_constraint_uiiv_residential_Y];
+    [_uiv_topRight1 removeConstraint:_constraint_uiiv_residential_X];
+    [_uiv_topRight1 removeConstraint:_constraint_uiiv_residential_Y];
     _uiiv_residential.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(23.5));
-//    _uiiv_residential.frame = CGRectMake(0.0f, 0.0f, 1024.0f, 768.0f);
+    _uiiv_residential.frame = CGRectMake(-180.0f, 350.0f, 1024.0f, 768.0f);
+    [self.view layoutIfNeeded];
     
 }
 
@@ -86,6 +95,16 @@
                              _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(0));
                              _uiv_bigContainer.frame = CGRectMake(0.0f, -197.0f, 2068, 1950);
                              //[self.view layoutIfNeeded];
+                             
+                             for (UIView *tmp in [_uiv_bigContainer subviews]) {
+                                 if (tmp.tag == 101) {
+                                     
+                                 }
+                                 else{
+                                     tmp.alpha = 0.0;
+                                 }
+                             }
+                             
                          } completion:^(BOOL finished)
                         {
                             [_uib_topLeft removeTarget:self action:@selector(topLeftBtnTapped:) forControlEvents:UIControlEventAllTouchEvents];
@@ -105,6 +124,16 @@
                          animations:^{
                              _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
                              _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
+                             
+                             for (UIView *tmp in [_uiv_bigContainer subviews]) {
+                                 if (tmp.tag == 101) {
+                                     
+                                 }
+                                 else{
+                                     tmp.alpha = 1.0;
+                                 }
+                             }
+                             
                              //[self.view layoutIfNeeded];
                          } completion:^(BOOL finished)
                             {
@@ -124,6 +153,16 @@
                      animations:^{
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(0));
                          _uiv_bigContainer.frame = CGRectMake(0.0f, -985.0f, 2068, 1950);
+                         
+                         for (UIView *tmp in [_uiv_bigContainer subviews]) {
+                             if (tmp.tag == 104) {
+                                 
+                             }
+                             else{
+                                 tmp.alpha = 0.0;
+                             }
+                         }
+                         
                          //[self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
      {
@@ -138,6 +177,16 @@
                      animations:^{
                          _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
+                         
+                         for (UIView *tmp in [_uiv_bigContainer subviews]) {
+                             if (tmp.tag == 104) {
+                                 
+                             }
+                             else{
+                                 tmp.alpha = 1.0;
+                             }
+                         }
+                         
                          //[self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
      {
@@ -156,7 +205,16 @@
                      animations:^{
                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(0));
                          _uiv_bigContainer.frame = CGRectMake(-844.0f, -985.0f, 2068, 1950);
-                         _uiv_bottomLeft.alpha = 0.0;
+                         
+                         for (UIView *tmp in [_uiv_bigContainer subviews]) {
+                             if (tmp.tag == 105) {
+                                 
+                             }
+                             else{
+                                 tmp.alpha = 0.0;
+                             }
+                         }
+                         
                          //[self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
      {
@@ -171,7 +229,16 @@
                      animations:^{
                          _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
-                         _uiv_bottomLeft.alpha = 1.0;
+                         
+                         for (UIView *tmp in [_uiv_bigContainer subviews]) {
+                             if (tmp.tag == 105) {
+                                 
+                             }
+                             else{
+                                 tmp.alpha = 1.0;
+                             }
+                         }
+                         
                          //[self.view layoutIfNeeded];
                      } completion:^(BOOL finished)
      {
@@ -192,8 +259,20 @@
     [UIView animateWithDuration:1.33
                      animations:^{
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(0));
+                         _uiiv_residential.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(0));
                          _uiv_bigContainer.frame = CGRectMake(-1044.0f, 0.0f, 2068, 1950);
+                         _uiiv_residential.frame = CGRectMake(0.0f, 0.0f, 1024.0f, 768.0f);
                          [self.view layoutIfNeeded];
+                         
+                         for (UIView *tmp in [_uiv_bigContainer subviews]) {
+                             if (tmp.tag == 102) {
+                                 
+                             }
+                             else{
+                                 tmp.alpha = 0.0;
+                             }
+                         }
+                         
                      } completion:^(BOOL finished)
      {
          [_uib_topRight1 removeTarget:self action:@selector(topRightBtn1Tapped:) forControlEvents:UIControlEventAllTouchEvents];
@@ -210,8 +289,20 @@
     [UIView animateWithDuration:1.33
                      animations:^{
                          _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
-                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
+                         _uiiv_residential.frame = CGRectMake(-180.0f, 350.0f, 1024.0f, 768.0f);
                          [self.view layoutIfNeeded];
+                         _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
+                         _uiiv_residential.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(23.5));
+                         
+                         for (UIView *tmp in [_uiv_bigContainer subviews]) {
+                             if (tmp.tag == 102) {
+                                 
+                             }
+                             else{
+                                 tmp.alpha = 1.0;
+                             }
+                         }
+                         
                      } completion:^(BOOL finished)
      {
          [_uib_topRight1 removeTarget:self action:@selector(reverseBrownPart:) forControlEvents:UIControlEventAllTouchEvents];
@@ -234,6 +325,16 @@
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(0));
                          _uiv_bigContainer.frame = CGRectMake(-1044.0f, -197.0f, 2068, 1950);
                          [self.view layoutIfNeeded];
+                         
+                         for (UIView *tmp in [_uiv_bigContainer subviews]) {
+                             if (tmp.tag == 103) {
+                                 
+                             }
+                             else{
+                                 tmp.alpha = 0.0;
+                             }
+                         }
+                         
                      } completion:^(BOOL finished)
      {
          [_uib_topRight2 removeTarget:self action:@selector(topRightBtn2Tapped:) forControlEvents:UIControlEventAllTouchEvents];
@@ -252,6 +353,16 @@
                          _uiv_bigContainer.frame = CGRectMake(-522.0f, -591.0f, 2068, 1950);
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
                          [self.view layoutIfNeeded];
+                         
+                         for (UIView *tmp in [_uiv_bigContainer subviews]) {
+                             if (tmp.tag == 103) {
+                                 
+                             }
+                             else{
+                                 tmp.alpha = 1.0;
+                             }
+                         }
+                         
                      } completion:^(BOOL finished)
      {
          [_uib_topRight2 removeTarget:self action:@selector(reverseGreenPart:) forControlEvents:UIControlEventAllTouchEvents];
