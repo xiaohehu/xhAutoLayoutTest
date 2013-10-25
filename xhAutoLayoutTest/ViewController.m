@@ -23,6 +23,8 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *topRight1_W_Constant;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *topRight2_H_Constant;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *bigContainer_H;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraint_uiiv_residential_X;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *constraint_uiiv_residential_Y;
 
 @property (weak, nonatomic) IBOutlet UIView *uiv_topLeft;
 @property (weak, nonatomic) IBOutlet UIView *uiv_bottomLeft;
@@ -55,8 +57,11 @@
     [_uiv_bottomRight setBackgroundColor:[UIColor colorWithRed:235.0/255.0 green:189.0/255.0 blue:7.0/255.0 alpha:1.0]];
     
     _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
+    
+    [self.view removeConstraint:_constraint_uiiv_residential_X];
+    [self.view removeConstraint:_constraint_uiiv_residential_Y];
     _uiiv_residential.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(23.5));
-    _uiiv_residential.frame = CGRectMake(0.0f, 0.0f, 1024.0f, 768.0f);
+//    _uiiv_residential.frame = CGRectMake(0.0f, 0.0f, 1024.0f, 768.0f);
     
 }
 

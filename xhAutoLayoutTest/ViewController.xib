@@ -17,7 +17,6 @@
                 <outlet property="uib_topLeft" destination="2ZX-kk-Mrw" id="PXr-Ob-9SU"/>
                 <outlet property="uib_topRight1" destination="eXO-2z-6x9" id="DSD-as-7X4"/>
                 <outlet property="uib_topRight2" destination="iwt-HJ-ozO" id="VGu-fU-Uy5"/>
-                <outlet property="uiiv_residential" destination="Udg-1Q-WMZ" id="Ks9-9r-XgU"/>
                 <outlet property="uiiv_retail" destination="Y6f-nn-Zw0" id="r2k-8m-daZ"/>
                 <outlet property="uiv_bigContainer" destination="ZAv-wF-UcT" id="IJY-eq-TB7"/>
                 <outlet property="uiv_bottomLeft" destination="twJ-v8-E4u" id="p9O-Je-tpo"/>
@@ -37,7 +36,7 @@
                     <rect key="frame" x="-522" y="-591" width="2068" height="1950"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
-                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qCf-OK-Gjv">
+                        <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qCf-OK-Gjv">
                             <rect key="frame" x="0.0" y="197" width="1024" height="768"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
@@ -67,7 +66,7 @@
                                 <constraint firstAttribute="bottom" secondItem="2ZX-kk-Mrw" secondAttribute="bottom" constant="20" id="rXf-ck-y94"/>
                             </constraints>
                         </view>
-                        <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FME-tj-voo">
+                        <view hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FME-tj-voo">
                             <rect key="frame" x="1044" y="788" width="1024" height="177"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
@@ -106,11 +105,11 @@
                                 <constraint firstAttribute="bottom" secondItem="iwt-HJ-ozO" secondAttribute="bottom" constant="20" id="sZN-Fw-J9X"/>
                             </constraints>
                         </view>
-                        <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BMW-nS-fXt">
+                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BMW-nS-fXt">
                             <rect key="frame" x="1044" y="0.0" width="1024" height="768"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" misplaced="YES" image="opt-a-_0008_9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Udg-1Q-WMZ">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="opt-a-_0008_9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fD3-Bm-84M">
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 </imageView>
@@ -137,14 +136,11 @@
                                 <constraint firstAttribute="width" constant="1024" id="6vc-mp-kWQ"/>
                                 <constraint firstItem="eXO-2z-6x9" firstAttribute="leading" secondItem="BMW-nS-fXt" secondAttribute="leading" constant="20" id="7cO-kP-cXz"/>
                                 <constraint firstItem="eXO-2z-6x9" firstAttribute="top" secondItem="BMW-nS-fXt" secondAttribute="top" constant="646" id="C67-Vk-82o"/>
-                                <constraint firstAttribute="bottom" secondItem="Udg-1Q-WMZ" secondAttribute="bottom" id="DEg-b7-DFV"/>
-                                <constraint firstAttribute="centerY" secondItem="Udg-1Q-WMZ" secondAttribute="centerY" constant="384" id="QAE-o3-7vl"/>
                                 <constraint firstAttribute="trailing" secondItem="eXO-2z-6x9" secondAttribute="trailing" constant="784" id="VJJ-jT-RJS"/>
-                                <constraint firstAttribute="centerX" secondItem="Udg-1Q-WMZ" secondAttribute="centerX" constant="512" id="b60-Ng-3RC"/>
                                 <constraint firstAttribute="bottom" secondItem="eXO-2z-6x9" secondAttribute="bottom" constant="20" id="ylA-SV-VjE"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="twJ-v8-E4u">
+                        <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="twJ-v8-E4u">
                             <rect key="frame" x="0.0" y="985" width="1024" height="768"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
@@ -181,7 +177,7 @@
                                 <constraint firstItem="81k-KX-O4k" firstAttribute="leading" secondItem="twJ-v8-E4u" secondAttribute="leading" constant="840" id="rOL-Vn-pxQ"/>
                             </constraints>
                         </view>
-                        <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZgW-XO-b3t">
+                        <view hidden="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZgW-XO-b3t">
                             <rect key="frame" x="1044" y="985" width="824" height="768"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
