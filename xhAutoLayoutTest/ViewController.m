@@ -56,6 +56,7 @@
     
     _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
     _uiiv_residential.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(23.5));
+    _uiiv_residential.frame = CGRectMake(0.0f, 0.0f, 1024.0f, 768.0f);
     
 }
 

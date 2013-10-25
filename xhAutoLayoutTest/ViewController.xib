@@ -110,13 +110,9 @@
                             <rect key="frame" x="1044" y="0.0" width="1024" height="768"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="opt-a-_0008_9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Udg-1Q-WMZ">
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" misplaced="YES" image="opt-a-_0008_9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Udg-1Q-WMZ">
                                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="1024" id="VSy-Mk-H3T"/>
-                                        <constraint firstAttribute="height" constant="768" id="spL-6a-UkJ"/>
-                                    </constraints>
                                 </imageView>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXO-2z-6x9">
                                     <rect key="frame" x="20" y="646" width="220" height="102"/>
@@ -141,6 +137,7 @@
                                 <constraint firstAttribute="width" constant="1024" id="6vc-mp-kWQ"/>
                                 <constraint firstItem="eXO-2z-6x9" firstAttribute="leading" secondItem="BMW-nS-fXt" secondAttribute="leading" constant="20" id="7cO-kP-cXz"/>
                                 <constraint firstItem="eXO-2z-6x9" firstAttribute="top" secondItem="BMW-nS-fXt" secondAttribute="top" constant="646" id="C67-Vk-82o"/>
+                                <constraint firstAttribute="bottom" secondItem="Udg-1Q-WMZ" secondAttribute="bottom" id="DEg-b7-DFV"/>
                                 <constraint firstAttribute="centerY" secondItem="Udg-1Q-WMZ" secondAttribute="centerY" constant="384" id="QAE-o3-7vl"/>
                                 <constraint firstAttribute="trailing" secondItem="eXO-2z-6x9" secondAttribute="trailing" constant="784" id="VJJ-jT-RJS"/>
                                 <constraint firstAttribute="centerX" secondItem="Udg-1Q-WMZ" secondAttribute="centerX" constant="512" id="b60-Ng-3RC"/>
