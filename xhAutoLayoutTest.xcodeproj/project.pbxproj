@@ -21,6 +21,8 @@
 		82E8F90C1816BE0E00D73D81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82E8F90A1816BE0E00D73D81 /* InfoPlist.strings */; };
 		82E8F90E1816BE0E00D73D81 /* xhAutoLayoutTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E8F90D1816BE0E00D73D81 /* xhAutoLayoutTestTests.m */; };
 		82E8F9181816C1CD00D73D81 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82E8F9171816C1CD00D73D81 /* ViewController.xib */; };
+		82FC87B1181AC5A30090A29B /* opt-a-_0009_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82FC87AF181AC5A30090A29B /* opt-a-_0009_10.jpg */; };
+		82FC87B2181AC5A30090A29B /* opt-a-_0008_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82FC87B0181AC5A30090A29B /* opt-a-_0008_9.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		82E8F90B1816BE0E00D73D81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82E8F90D1816BE0E00D73D81 /* xhAutoLayoutTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xhAutoLayoutTestTests.m; sourceTree = "<group>"; };
 		82E8F9171816C1CD00D73D81 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		82FC87AF181AC5A30090A29B /* opt-a-_0009_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "opt-a-_0009_10.jpg"; sourceTree = "<group>"; };
+		82FC87B0181AC5A30090A29B /* opt-a-_0008_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "opt-a-_0008_9.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				82E8F8F71816BE0E00D73D81 /* ViewController.h */,
 				82E8F8F81816BE0E00D73D81 /* ViewController.m */,
 				82E8F9171816C1CD00D73D81 /* ViewController.xib */,
+				82FC87AF181AC5A30090A29B /* opt-a-_0009_10.jpg */,
+				82FC87B0181AC5A30090A29B /* opt-a-_0008_9.jpg */,
 				82E8F8FA1816BE0E00D73D81 /* Images.xcassets */,
 				82E8F8E91816BE0E00D73D81 /* Supporting Files */,
 			);
@@ -231,6 +237,8 @@
 				82E8F8FB1816BE0E00D73D81 /* Images.xcassets in Resources */,
 				82E8F9181816C1CD00D73D81 /* ViewController.xib in Resources */,
 				82E8F8ED1816BE0E00D73D81 /* InfoPlist.strings in Resources */,
+				82FC87B2181AC5A30090A29B /* opt-a-_0008_9.jpg in Resources */,
+				82FC87B1181AC5A30090A29B /* opt-a-_0009_10.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

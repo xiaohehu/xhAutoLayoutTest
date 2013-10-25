@@ -30,6 +30,9 @@
 @property (weak, nonatomic) IBOutlet UIView *uiv_topRight1;
 @property (weak, nonatomic) IBOutlet UIView *uiv_topRight2;
 
+@property (weak, nonatomic) IBOutlet UIImageView *uiiv_retail;
+@property (weak, nonatomic) IBOutlet UIImageView *uiiv_residential;
+
 @property (weak, nonatomic) NSLayoutConstraint *brownToTop;
 @property (weak, nonatomic) NSLayoutConstraint *greenToBtm;
 @end
@@ -47,7 +50,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 
-    _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-30));
+    [_uiv_bigContainer setBackgroundColor:[UIColor colorWithRed:255.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1.0]];
+    [_uiv_bottomLeft setBackgroundColor:[UIColor colorWithRed:253.0/255.0 green:228.0/255.0 blue:110.0/255.0 alpha:1.0]];
+    [_uiv_bottomRight setBackgroundColor:[UIColor colorWithRed:235.0/255.0 green:189.0/255.0 blue:7.0/255.0 alpha:1.0]];
+    
+    _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-23.5));
+    _uiiv_residential.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(23.5));
     
 }
 
