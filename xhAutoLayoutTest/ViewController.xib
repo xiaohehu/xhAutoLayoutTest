@@ -36,8 +36,12 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="main_menu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5lD-7v-w6G">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
                 <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZAv-wF-UcT">
-                    <rect key="frame" x="-630" y="-340" width="2068" height="1556"/>
+                    <rect key="frame" x="-552" y="-327" width="2068" height="1556"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
                         <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qCf-OK-Gjv">
@@ -260,6 +264,7 @@
         </view>
     </objects>
     <resources>
+        <image name="main_menu.jpg" width="2048" height="1536"/>
         <image name="opt-a-_0008_9.jpg" width="2048" height="1536"/>
         <image name="opt-a-_0009_10.jpg" width="2048" height="1536"/>
     </resources>

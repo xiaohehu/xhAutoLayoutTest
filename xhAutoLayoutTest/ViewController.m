@@ -73,7 +73,7 @@ static float kMasterAngle = 23.5;
 
 	// Do any additional setup after loading the view, typically from a nib.
     
-    _uiv_bigContainer.frame = CGRectMake(-630.0f, -340.0f, 2068, 1556);
+    _uiv_bigContainer.frame = CGRectMake(-552.0f, -327.0f, 2068, 1556);
     
     [_uiv_bigContainer setBackgroundColor:[UIColor colorWithRed:255.0/255.0 green:204.0/255.0 blue:0.0/255.0 alpha:1.0]];
     [_uiv_4 setBackgroundColor:[UIColor colorWithRed:253.0/255.0 green:228.0/255.0 blue:110.0/255.0 alpha:1.0]];
@@ -121,7 +121,7 @@ static float kMasterAngle = 23.5;
     
     [UIView animateWithDuration:1.33
                          animations:^{
-                             _uiv_bigContainer.frame = CGRectMake(-630.0f, -340.0f, 2068, 1556);
+                             _uiv_bigContainer.frame = CGRectMake(-552.0f, -327.0f, 2068, 1556);
                              _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-kMasterAngle));
                              
                              for (UIView *tmp in [_uiv_bigContainer subviews]) {
@@ -169,7 +169,7 @@ static float kMasterAngle = 23.5;
 
     [UIView animateWithDuration:1.33
                      animations:^{
-                         _uiv_bigContainer.frame = CGRectMake(-630.0f, -340.0f, 2068, 1556);
+                         _uiv_bigContainer.frame = CGRectMake(-552.0f, -327.0f, 2068, 1556);
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-kMasterAngle));
                          
                          for (UIView *tmp in [_uiv_bigContainer subviews]) {
@@ -217,7 +217,7 @@ static float kMasterAngle = 23.5;
     
     [UIView animateWithDuration:1.33
                      animations:^{
-                         _uiv_bigContainer.frame = CGRectMake(-630.0f, -340.0f, 2068, 1556);
+                         _uiv_bigContainer.frame = CGRectMake(-552.0f, -327.0f, 2068, 1556);
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-kMasterAngle));
                          
                          
@@ -279,7 +279,7 @@ static float kMasterAngle = 23.5;
     [UIView animateWithDuration:1.33
                      animations:^{
                          
-                         _uiv_bigContainer.frame = CGRectMake(-630.0f, -340.0f, 2068, 1556);
+                         _uiv_bigContainer.frame = CGRectMake(-552.0f, -327.0f, 2068, 1556);
                          _uiiv_1.frame = CGRectMake(-270.0f, 150.0f, 1024.0f, 768.0f);
                          [self.view layoutIfNeeded];
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-kMasterAngle));
@@ -340,7 +340,7 @@ static float kMasterAngle = 23.5;
     
     [UIView animateWithDuration:1.33
                      animations:^{
-                         _uiv_bigContainer.frame = CGRectMake(-630.0f, -340.0f, 2068, 1556);
+                         _uiv_bigContainer.frame = CGRectMake(-552.0f, -327.0f, 2068, 1556);
                          _uiv_bigContainer.transform = CGAffineTransformMakeRotation(RADIANS_TO_DEGREES(-kMasterAngle));
                          [self.view layoutIfNeeded];
                          
