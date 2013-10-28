@@ -10,6 +10,7 @@
 		8290A4471819907D0004FF13 /* opt-a-_0009_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8290A4451819907D0004FF13 /* opt-a-_0009_10.jpg */; };
 		8290A4481819907D0004FF13 /* opt-a-_0008_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8290A4461819907D0004FF13 /* opt-a-_0008_9.jpg */; };
 		829E6DC9181EB9FD005B291D /* main_menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 829E6DC8181EB9FD005B291D /* main_menu.jpg */; };
+		829E6DCB181EF51A005B291D /* vanness_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 829E6DCA181EF51A005B291D /* vanness_Logo.png */; };
 		82E8F8E31816BE0E00D73D81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E8F8E21816BE0E00D73D81 /* Foundation.framework */; };
 		82E8F8E51816BE0E00D73D81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E8F8E41816BE0E00D73D81 /* CoreGraphics.framework */; };
 		82E8F8E71816BE0E00D73D81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E8F8E61816BE0E00D73D81 /* UIKit.framework */; };
@@ -40,6 +41,7 @@
 		8290A4451819907D0004FF13 /* opt-a-_0009_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "opt-a-_0009_10.jpg"; sourceTree = "<group>"; };
 		8290A4461819907D0004FF13 /* opt-a-_0008_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "opt-a-_0008_9.jpg"; sourceTree = "<group>"; };
 		829E6DC8181EB9FD005B291D /* main_menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = main_menu.jpg; sourceTree = "<group>"; };
+		829E6DCA181EF51A005B291D /* vanness_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vanness_Logo.png; sourceTree = "<group>"; };
 		82E8F8DF1816BE0E00D73D81 /* xhAutoLayoutTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xhAutoLayoutTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E8F8E21816BE0E00D73D81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		82E8F8E41816BE0E00D73D81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -125,6 +127,7 @@
 				82E8F9171816C1CD00D73D81 /* ViewController.xib */,
 				8290A4451819907D0004FF13 /* opt-a-_0009_10.jpg */,
 				8290A4461819907D0004FF13 /* opt-a-_0008_9.jpg */,
+				829E6DCA181EF51A005B291D /* vanness_Logo.png */,
 				829E6DC8181EB9FD005B291D /* main_menu.jpg */,
 				82E8F8FA1816BE0E00D73D81 /* Images.xcassets */,
 				82E8F8E91816BE0E00D73D81 /* Supporting Files */,
@@ -242,6 +245,7 @@
 				82E8F9181816C1CD00D73D81 /* ViewController.xib in Resources */,
 				82E8F8ED1816BE0E00D73D81 /* InfoPlist.strings in Resources */,
 				8290A4481819907D0004FF13 /* opt-a-_0008_9.jpg in Resources */,
+				829E6DCB181EF51A005B291D /* vanness_Logo.png in Resources */,
 				8290A4471819907D0004FF13 /* opt-a-_0009_10.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

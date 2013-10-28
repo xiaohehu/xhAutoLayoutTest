@@ -8,8 +8,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
             <connections>
                 <outlet property="bigContainer_H" destination="WZt-mz-rYG" id="8aV-xX-k1m"/>
-                <outlet property="constraint_X" destination="QlB-F9-hfc" id="Lps-8O-GHk"/>
-                <outlet property="constraint_Y" destination="Ohm-qg-p30" id="O4o-lX-u8Q"/>
+                <outlet property="constraint_X" destination="qAp-3l-kVK" id="4YI-eC-pVh"/>
+                <outlet property="constraint_Y" destination="ib1-i2-7A1" id="4Iz-HY-c7s"/>
                 <outlet property="constraint_uiiv_1_X" destination="8qA-TO-kZm" id="ohS-8l-Dlz"/>
                 <outlet property="constraint_uiiv_1_Y" destination="ayX-7Z-BeQ" id="WrY-xM-Qjj"/>
                 <outlet property="uib_0" destination="2ZX-kk-Mrw" id="Tfn-j3-O8D"/>
@@ -41,7 +41,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZAv-wF-UcT">
-                    <rect key="frame" x="-552" y="-327" width="2068" height="1556"/>
+                    <rect key="frame" x="-540" y="-321" width="2066" height="1554"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
                         <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qCf-OK-Gjv">
@@ -68,18 +68,18 @@
                             </subviews>
                             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
-                                <constraint firstAttribute="bottom" secondItem="2ZX-kk-Mrw" secondAttribute="bottom" constant="20" id="1Mc-mu-DUa"/>
-                                <constraint firstItem="2ZX-kk-Mrw" firstAttribute="top" secondItem="qCf-OK-Gjv" secondAttribute="top" constant="627" id="3yR-WY-KUX"/>
-                                <constraint firstAttribute="trailing" secondItem="2ZX-kk-Mrw" secondAttribute="trailing" constant="20" id="TTV-qx-3cB"/>
-                                <constraint firstItem="2ZX-kk-Mrw" firstAttribute="leading" secondItem="qCf-OK-Gjv" secondAttribute="leading" constant="783" id="WHF-XM-S86"/>
+                                <constraint firstAttribute="bottom" secondItem="2ZX-kk-Mrw" secondAttribute="bottom" constant="20" id="DHs-9O-6tB"/>
+                                <constraint firstItem="2ZX-kk-Mrw" firstAttribute="top" secondItem="qCf-OK-Gjv" secondAttribute="top" constant="627" id="Ive-My-doq"/>
+                                <constraint firstItem="2ZX-kk-Mrw" firstAttribute="leading" secondItem="qCf-OK-Gjv" secondAttribute="leading" constant="783" id="U8N-7u-0GX"/>
+                                <constraint firstAttribute="trailing" secondItem="2ZX-kk-Mrw" secondAttribute="trailing" constant="20" id="aSs-dX-eGm"/>
                             </constraints>
                         </view>
                         <view autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FME-tj-voo">
-                            <rect key="frame" x="1044" y="591" width="1024" height="177"/>
+                            <rect key="frame" x="1042" y="589" width="1024" height="179"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="opt-a-_0009_10.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KOU-MO-PJd">
-                                    <rect key="frame" x="0.0" y="-591" width="1024" height="768"/>
+                                    <rect key="frame" x="0.0" y="-589" width="1024" height="768"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="768" id="ahb-WZ-tOS"/>
@@ -105,7 +105,7 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
-                                <constraint firstAttribute="height" constant="177" id="00l-ID-lcM"/>
+                                <constraint firstAttribute="height" constant="179" id="00l-ID-lcM"/>
                                 <constraint firstAttribute="trailing" secondItem="iwt-HJ-ozO" secondAttribute="trailing" constant="875" id="Fzv-DK-7vX"/>
                                 <constraint firstAttribute="width" constant="1024" id="IQy-lq-ghQ"/>
                                 <constraint firstItem="iwt-HJ-ozO" firstAttribute="leading" secondItem="FME-tj-voo" secondAttribute="leading" constant="20" id="cmd-oF-Fl0"/>
@@ -113,7 +113,7 @@
                             </constraints>
                         </view>
                         <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BMW-nS-fXt">
-                            <rect key="frame" x="1044" y="0.0" width="1024" height="571"/>
+                            <rect key="frame" x="1042" y="0.0" width="1024" height="571"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="295" verticalHuggingPriority="295" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" misplaced="YES" image="opt-a-_0008_9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="e8t-ad-kix">
@@ -143,20 +143,20 @@
                             </subviews>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
+                                <constraint firstAttribute="bottom" secondItem="MW5-Wb-tFY" secondAttribute="bottom" constant="20" id="7qQ-MU-sO2"/>
                                 <constraint firstAttribute="centerX" secondItem="e8t-ad-kix" secondAttribute="centerX" id="8qA-TO-kZm"/>
                                 <constraint firstAttribute="height" constant="571" id="AXu-dH-nmz"/>
-                                <constraint firstAttribute="trailing" secondItem="MW5-Wb-tFY" secondAttribute="trailing" constant="750" id="HqR-tS-72z"/>
-                                <constraint firstItem="MW5-Wb-tFY" firstAttribute="leading" secondItem="BMW-nS-fXt" secondAttribute="leading" constant="20" id="MhN-8t-6zk"/>
+                                <constraint firstAttribute="trailing" secondItem="MW5-Wb-tFY" secondAttribute="trailing" constant="750" id="D6y-bL-gkz"/>
+                                <constraint firstItem="MW5-Wb-tFY" firstAttribute="leading" secondItem="BMW-nS-fXt" secondAttribute="leading" constant="20" id="Hfk-zu-c5U"/>
                                 <constraint firstAttribute="width" constant="1024" id="PWJ-PP-Dy4"/>
-                                <constraint firstAttribute="bottom" secondItem="MW5-Wb-tFY" secondAttribute="bottom" constant="20" id="PaD-tJ-RL4"/>
                                 <constraint firstAttribute="centerY" secondItem="e8t-ad-kix" secondAttribute="centerY" id="ayX-7Z-BeQ"/>
                             </constraints>
                         </view>
                         <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="twJ-v8-E4u">
-                            <rect key="frame" x="0.0" y="788" width="1024" height="768"/>
+                            <rect key="frame" x="0.0" y="786" width="1024" height="768"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3F-lm-l5W">
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l3F-lm-l5W">
                                     <rect key="frame" x="562" y="20" width="442" height="331"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -198,8 +198,8 @@
                                 <constraint firstAttribute="bottom" secondItem="l3F-lm-l5W" secondAttribute="bottom" constant="417" id="wqR-rz-izH"/>
                             </constraints>
                         </view>
-                        <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZgW-XO-b3t">
-                            <rect key="frame" x="1044" y="788" width="824" height="768"/>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZgW-XO-b3t">
+                            <rect key="frame" x="1042" y="786" width="822" height="768"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" text="FACTS   &amp; FIGURES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAE-8i-3Kt">
@@ -247,18 +247,22 @@
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstItem="ZgW-XO-b3t" firstAttribute="top" secondItem="FME-tj-voo" secondAttribute="bottom" constant="20" id="2HI-Tv-61D"/>
+                        <constraint firstItem="ZgW-XO-b3t" firstAttribute="top" secondItem="FME-tj-voo" secondAttribute="bottom" constant="18" id="2HI-Tv-61D"/>
                         <constraint firstItem="BMW-nS-fXt" firstAttribute="top" secondItem="ZAv-wF-UcT" secondAttribute="top" id="HE7-6X-UEX"/>
-                        <constraint firstAttribute="width" constant="2068" id="ROy-dc-knE"/>
-                        <constraint firstItem="FME-tj-voo" firstAttribute="top" secondItem="BMW-nS-fXt" secondAttribute="bottom" constant="20" id="Uw3-DP-zzB"/>
-                        <constraint firstAttribute="height" constant="1556" id="WZt-mz-rYG"/>
+                        <constraint firstAttribute="width" constant="2066" id="ROy-dc-knE"/>
+                        <constraint firstItem="FME-tj-voo" firstAttribute="top" secondItem="BMW-nS-fXt" secondAttribute="bottom" constant="18" id="Uw3-DP-zzB"/>
+                        <constraint firstAttribute="height" constant="1554" id="WZt-mz-rYG"/>
                     </constraints>
                 </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vanness_Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="pYp-oh-2ck">
+                    <rect key="frame" x="13" y="16" width="250" height="67"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="ZAv-wF-UcT" secondAttribute="centerY" id="Ohm-qg-p30"/>
-                <constraint firstAttribute="centerX" secondItem="ZAv-wF-UcT" secondAttribute="centerX" id="QlB-F9-hfc"/>
+                <constraint firstAttribute="centerX" secondItem="ZAv-wF-UcT" secondAttribute="centerX" constant="1033" id="ib1-i2-7A1"/>
+                <constraint firstAttribute="centerY" secondItem="ZAv-wF-UcT" secondAttribute="centerY" id="qAp-3l-kVK"/>
             </constraints>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
         </view>
@@ -267,5 +271,6 @@
         <image name="main_menu.jpg" width="2048" height="1536"/>
         <image name="opt-a-_0008_9.jpg" width="2048" height="1536"/>
         <image name="opt-a-_0009_10.jpg" width="2048" height="1536"/>
+        <image name="vanness_Logo.png" width="411" height="134"/>
     </resources>
 </document>
