@@ -10,25 +10,25 @@
                 <outlet property="bigContainer_H" destination="WZt-mz-rYG" id="8aV-xX-k1m"/>
                 <outlet property="constraint_X" destination="QlB-F9-hfc" id="Lps-8O-GHk"/>
                 <outlet property="constraint_Y" destination="Ohm-qg-p30" id="O4o-lX-u8Q"/>
-                <outlet property="constraint_uiiv_residential_X" destination="8qA-TO-kZm" id="o5j-JL-9RQ"/>
-                <outlet property="constraint_uiiv_residential_Y" destination="ayX-7Z-BeQ" id="7r4-yW-m30"/>
-                <outlet property="topRight1_H_Constant" destination="AXu-dH-nmz" id="feR-mn-yAY"/>
-                <outlet property="topRight1_W_Constant" destination="PWJ-PP-Dy4" id="MII-Rp-23f"/>
-                <outlet property="topRight2_H_Constant" destination="00l-ID-lcM" id="hkc-L8-nQ9"/>
-                <outlet property="uib_bottomLeft" destination="81k-KX-O4k" id="MgP-qZ-EEY"/>
-                <outlet property="uib_bottomRight" destination="GXr-2c-JLI" id="8zC-AS-bmj"/>
-                <outlet property="uib_topLeft" destination="2ZX-kk-Mrw" id="PXr-Ob-9SU"/>
-                <outlet property="uib_topRight1" destination="MW5-Wb-tFY" id="3BC-SU-h5h"/>
-                <outlet property="uib_topRight2" destination="iwt-HJ-ozO" id="VGu-fU-Uy5"/>
-                <outlet property="uiiv_residential" destination="e8t-ad-kix" id="LbA-ZC-V5J"/>
-                <outlet property="uiiv_retail" destination="KOU-MO-PJd" id="aWP-2p-8Mb"/>
+                <outlet property="constraint_uiiv_1_X" destination="8qA-TO-kZm" id="ohS-8l-Dlz"/>
+                <outlet property="constraint_uiiv_1_Y" destination="ayX-7Z-BeQ" id="WrY-xM-Qjj"/>
+                <outlet property="uib_0" destination="2ZX-kk-Mrw" id="Tfn-j3-O8D"/>
+                <outlet property="uib_1" destination="MW5-Wb-tFY" id="YvQ-EN-TKI"/>
+                <outlet property="uib_2" destination="iwt-HJ-ozO" id="KqE-ao-lyM"/>
+                <outlet property="uib_3" destination="GXr-2c-JLI" id="T7z-s6-FJD"/>
+                <outlet property="uib_4" destination="81k-KX-O4k" id="6Ny-FC-bNW"/>
+                <outlet property="uiiv_1" destination="e8t-ad-kix" id="ut7-OB-Oaj"/>
+                <outlet property="uiiv_2" destination="KOU-MO-PJd" id="nmk-eG-8XS"/>
+                <outlet property="uiv_0" destination="qCf-OK-Gjv" id="ADd-Ym-NFm"/>
+                <outlet property="uiv_1" destination="BMW-nS-fXt" id="1Xf-K0-Tkg"/>
+                <outlet property="uiv_2" destination="FME-tj-voo" id="Dqx-P1-5jK"/>
+                <outlet property="uiv_3" destination="ZgW-XO-b3t" id="jix-86-9pa"/>
+                <outlet property="uiv_4" destination="twJ-v8-E4u" id="C95-kg-WNb"/>
                 <outlet property="uiv_bigContainer" destination="ZAv-wF-UcT" id="IJY-eq-TB7"/>
-                <outlet property="uiv_bottomLeft" destination="twJ-v8-E4u" id="p9O-Je-tpo"/>
-                <outlet property="uiv_bottomRight" destination="ZgW-XO-b3t" id="JOM-cZ-jIW"/>
-                <outlet property="uiv_topLeft" destination="qCf-OK-Gjv" id="GVP-kI-9fH"/>
-                <outlet property="uiv_topRight1" destination="BMW-nS-fXt" id="jiY-Nx-LTg"/>
-                <outlet property="uiv_topRight2" destination="FME-tj-voo" id="cAS-1A-d3n"/>
                 <outlet property="view" destination="kHg-hn-scZ" id="K1l-so-a3T"/>
+                <outlet property="view1_H_Constant" destination="AXu-dH-nmz" id="aJd-ND-65f"/>
+                <outlet property="view1_W_Constant" destination="PWJ-PP-Dy4" id="4D0-tc-ezd"/>
+                <outlet property="view2_H_Constant" destination="00l-ID-lcM" id="UWN-nQ-z6p"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -58,7 +58,7 @@
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <connections>
-                                        <action selector="topLeftBtnTapped:" destination="-1" eventType="touchUpInside" id="iOa-kG-NYf"/>
+                                        <action selector="btn0Tapped:" destination="-1" eventType="touchUpInside" id="UON-32-vpq"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -95,7 +95,7 @@
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <connections>
-                                        <action selector="topRightBtn2Tapped:" destination="-1" eventType="touchUpInside" id="6bc-z0-N9D"/>
+                                        <action selector="btn2Tapped:" destination="-1" eventType="touchUpInside" id="DDU-SU-Q1s"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -133,7 +133,7 @@
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <connections>
-                                        <action selector="topRightBtn1Tapped:" destination="-1" eventType="touchUpInside" id="Fz5-iJ-MuV"/>
+                                        <action selector="btn1Tapped:" destination="-1" eventType="touchUpInside" id="5Bx-Z5-EPa"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -178,7 +178,7 @@
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <connections>
-                                        <action selector="bottomLeftBtnTapped:" destination="-1" eventType="touchUpInside" id="gdL-VL-Lu0"/>
+                                        <action selector="btn4Tapped:" destination="-1" eventType="touchUpInside" id="IaC-C8-Uc2"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -219,10 +219,10 @@
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                     <connections>
-                                        <action selector="bottomRightBtnTapped:" destination="-1" eventType="touchUpInside" id="Nbi-2Q-Zmb"/>
+                                        <action selector="btn3Tapped:" destination="-1" eventType="touchUpInside" id="zaO-rb-isb"/>
                                     </connections>
                                 </button>
-                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hre-WB-sLs">
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hre-WB-sLs">
                                     <rect key="frame" x="97" y="134" width="387" height="314"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
